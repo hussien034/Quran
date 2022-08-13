@@ -1,0 +1,14 @@
+body{
+    background-image: 
+    linear-gradient( rgba(0,0,0,.8), rgba(0,0,0,.8) ),
+    url(../images/bg4.png);
+    background-size:contain;
+    background-attachment: fixed;
+    color: white;
+}
+.surha{
+    text-align: right;
+}
+.aud{
+    text-align: right;
+}
