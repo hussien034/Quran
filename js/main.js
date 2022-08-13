@@ -5,7 +5,7 @@ var first=document.getElementById("first");
 var searchInput = document.getElementById("search");
 var httpRequest1 = new XMLHttpRequest();
 var allSyrah = [];
-httpRequest1.open("Get", "http://api.alquran.cloud/v1/surah");
+httpRequest1.open("Get", "https://api.alquran.cloud/v1/surah");
 httpRequest1.send();
 httpRequest1.addEventListener("readystatechange", function () {
   if (httpRequest1.readyState == 4 && httpRequest1.status == 200) {
@@ -40,7 +40,7 @@ function indexOut(i) {
   var httpRequest2 = new XMLHttpRequest();
   httpRequest2.open(
     "Get",
-    `http://api.alquran.cloud/v1/surah/${i + 1}/ar.alafasy`
+    `https://api.alquran.cloud/v1/surah/${i + 1}/ar.alafasy`
   );
   httpRequest2.send();
   httpRequest2.addEventListener("readystatechange", function () {
