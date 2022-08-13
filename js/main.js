@@ -101,7 +101,7 @@ searchInput.onkeyup = function () {
 };
 $(document).ready(function()
 {
-    $("#first").fadeOut(4000,function(){
+    $("#first").fadeOut(5000,function(){
         $("body").css("overflow","auto")
     })
 })
