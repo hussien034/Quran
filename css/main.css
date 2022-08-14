@@ -45,6 +45,7 @@ svg{
 input{
     width: 50% !important;
     margin: auto;
+    font-family: "myFont" !important;
     padding:15px 0px !important;
     border-radius:40px !important;
     text-align: center;
